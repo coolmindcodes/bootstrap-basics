@@ -1,0 +1,16 @@
+git init
+git add .
+git commit -m "Bootstrap basics"
+
+//one time per computer
+git config --global user.email "walter@emobilis.ac.ke"
+git config --global user.name "walter"
+
+//copy from github
+git remote add origin https://github.com/coolmindcodes/bootstrap-basics.git
+
+git commit -m "Bootstrap basics"
+
+git push -u origin master
+
+git push -u origin main
